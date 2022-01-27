@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    border: none;
+    outline: none;
+}
+
+img 
+{
+    max-width: 100%;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+h2
+{
+    font-size: 2em;
+    color: #333;
+}
+
+p
+{
+    font-size: 1.25em;
+    color: #777;
+}
