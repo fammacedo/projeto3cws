@@ -2,63 +2,40 @@
 
 .cabecalho{
     width: 100%;
-    float: left;
+    height: 80px;
     padding: 1% 8%;
     background-color: #13c7ae;
 }
 
-.logo {
+.logo{
     width: 0%;
-    height: 0px;
+    height: 40px;
     float: left;
-    padding: 35px 45px;
+    padding: 35px 80px 0 0;
+    margin: 10px 0 0 5px;
     background: url(../img/logotipo.png) no-repeat;
-    background-color: #13c7ae;
-    font-size: 0;
+    
+}
 
+li{
+    list-style: none;
 }
 
 .titulo{
-    width: 25%;
-    height: 0px;
-    padding: 5px 5px;
+    width: 50%;
+    height: 20px;
+    padding: 15px 0 0 0;
     float: left;
-    margin-right: 65%;
     font-size: 1.5em;
 }
 
 .subtitulo{
-    width: 25%;
-    height: 0px;
-    padding: 20px 5px;
+    width: 50%;
+    height: 20px;
+    padding: 10px 0 0 0;
     float: left;
-    margin-right: 65%;
     font-size: 1.3em;
 }
-
-/* Desativado campo de pesquisa /*
-.form{
-    width: 30%;
-    height: 10%;
-    padding: 0px;
-    float: right;
-    margin-right: 30%;  
-    font-size: 2em;
-}
-
-.cabecalho input[type="text"]
-    {
-    width: 10%;
-    height: 3px;
-    float: left;
-    text-align: left;
-    padding: 15px 65px;
-    margin-top: 10px;
-    margin-left: 75px;
-}
-*/
-
-/* --- menu --- */
 
 .menu{
     width: 108%;
@@ -72,7 +49,6 @@
 }
 
 .menu li a{
-    color: #9d9d9d;
     margin-left: 6px;
     font-size: 1.35em;
     padding: 0px 12px;
@@ -80,10 +56,8 @@
 }
 
 .menu li a:hover{
-    color: #ffffff;
+    color: gray;
 }
-
-
 
 .social{
     float: right;
@@ -150,16 +124,6 @@
     height: 200px;
     margin: 5px 0;
 }
-
-.onde-estamos li{
-    color: #777;
-    margin-bottom: 10px;
-}
-
-.onde-estamos i{
-    margin-right: 5px;
-}
-
 
 /* Newsletter */ 
 .newsletter {
